@@ -15,6 +15,7 @@ var num = confirm("Would you like numbers in your password?");
 var symb = confirm("Would you like symbols in your password?");
 if (lowCase === false && upCase === false && num === false && symb === false) {
   alert("Please choose at least one option to continue.") 
+  generatePassword();
 }
   var characters = "";
   if (lowCase === true) {
